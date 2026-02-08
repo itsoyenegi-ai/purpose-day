@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Bubble 🫧❤️</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', cursive;
+    text-align: center;
+    background: linear-gradient(to bottom right, #ffe6f2, #fff5fb);
+    overflow-x: hidden;
+}
+
+/* Floating flowers */
+.flowers {
+    font-size: 35px;
+    line-height: 2;
+    padding: 20px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.yes {
+    background-color: #ff4d88;
+    color: white;
+}
+
+.no {
+    background-color: #cccccc;
+}
+
+/* Sections */
+.section {
+    display: none;
+    padding: 20px;
+}
+
+/* Her picture */
+.her-img {
+    width: 250px;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Hearts */
+.hearts {
+    font-size: 30px;
+}
+
+/* Letter Style */
+.letter {
+    max-width: 600px;
+    margin: 30px auto;
+    background: #fffafc;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Squirrel */
+.squirrel {
+    font-size: 60px;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Initial Flowers + Question -->
+<div class="flowers">
+🌸 🌼 🌷 🌹 🌺 💐 🌸 🌼 🌷 🌹 🌺 💐 <br>
+🌷 🌸 🌹 🌼 💐 🌺 🌷 🌸 🌹 🌼 💐 🌺
+</div>
+
+<h2>Do you know what makes me happy? 🫧</h2>
+<button class="yes" onclick="showHer()">Yes</button>
+<button class="no">No</button>
+
+<!-- Her Picture Section -->
+<div id="herSection" class="section">
+    <img src="sheeeee.jpg" alt="my beautiful bubble" class="her-img">
+    <div class="hearts">💖 💕 💞 💘 💓 💗 💝</div>
+    <h2>It is YOU ❤️</h2>
+
+    <p>I want to say something... do you want to hear?</p>
+    <button class="yes" onclick="showLetter()">Yes</button>
+    <button class="no">No</button>
+</div>
+
+<!-- Letter Section -->
+<div id="letterSection" class="section">
+    <div class="letter">
+        <h2>Happy Purpose Day, my Bubble ❤️</h2>
+
+        <p>
+        <strong>My Bubble,</strong><br><br>
+
+        Today I don’t just want to tell you that I love you… I want to tell you why I choose you.<br><br>
+
+        In this noisy world, you are my calm.<br>
+        In my overthinking mind, you are the soft pause.<br>
+        When life feels heavy, you are the lightness that keeps me breathing easy.<br><br>
+
+        My purpose with you is not timepass, not temporary emotions, not just sweet words.<br>
+        My purpose is long roads, shared dreams, silent understanding, and holding hands even when life tests us.<br><br>
+
+        I want to grow with you.<br>
+        I want to learn patience with you.<br>
+        I want to build something so strong that even storms will feel small in front of us.<br><br>
+
+        Yes, we will have misunderstandings.<br>
+        Yes, sometimes I’ll be stubborn, sometimes you’ll be quiet.<br>
+        But my promise today is this — I will never choose ego over us. I will never let one bad moment decide our whole story.<br><br>
+
+        My Bubble, you are not just someone I love…<br>
+        you are someone I see in my future.<br><br>
+
+        And on this Purpose Day, my only purpose is simple —<br>
+        to stay, to try, to understand, and to love you in a way that feels safe and forever.<br><br>
+
+        Happy Purpose Day, my beautiful Bubble. 🫧❤️
+        </p>
+    </div>
+
+    <div class="squirrel">🐿️</div>
+</div>
+
+<script>
+function showHer() {
+    document.getElementById("herSection").style.display = "block";
+}
+
+function showLetter() {
+    document.getElementById("letterSection").style.display = "block";
+}
+</script>
+
+</body>
+</html>
